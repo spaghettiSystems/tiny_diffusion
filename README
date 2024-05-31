@@ -1,0 +1,11 @@
+# SMALL TRANSFORMERS, BIG RESULTS: EFFICIENT DIFFUSION WITH PARAMETER SHARING
+
+This repository contains the code and pre-trained models for the paper "Small Transformers, Big Results: Efficient Diffusion with Parameter Sharing," published as a Tiny Paper at ICLR 2024
+
+## Introduction
+
+The interplay between model depth, computational complexity, and parameter count remains an intricate aspect of neural network design. We propose a novel block sharing mechanism for denoising diffusion generative models, enabling us to maintain or even improve model quality while reducing parameter count. Our approach leverages the architectural homogeneity of Vision Transformers and demonstrates enhanced performance with less computational overhead on various datasets.
+
+## Installation
+
+Git clone the repository. The code is essentially a fork of k-diffusion, and the instructions from there are applicable here. https://github.com/crowsonkb/k-diffusion
